@@ -1,0 +1,38 @@
+#title{
+    padding: 20px 0px 0px 0px;
+}
+
+h1{
+    color: rgb(216, 187, 133);
+}
+
+menu{
+    padding: 20px 0px 30px 0px;
+}
+
+#menu{
+    color: wheat;
+    text-decoration: none;
+    padding: 30px;
+}
+
+a{
+    color: rgb(233, 188, 106);
+    text-decoration: none;
+}
+
+h3{
+    color: wheat;
+}
+
+p{
+    color: whitesmoke;
+}
+
+li{
+    color: whitesmoke;
+}
+
+body{
+    background-color: cornflowerblue;
+}
