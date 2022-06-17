@@ -14,21 +14,16 @@ h3{
 menu{
     padding: .5vw 0vw 2vw;
 }
+a{
+    color: rgb(233, 188, 106);
+    text-decoration: none;
+}
 
 #menu{
     color: rgb(235, 201, 139);
     text-decoration: none;
     padding: 2vw;
     
-}
-
-a{
-    color: rgb(233, 188, 106);
-    text-decoration: none;
-}
-
-p{
-    color: whitesmoke;
 }
 
 li{
@@ -38,4 +33,18 @@ li{
 body{
     background-color: cornflowerblue;
     margin: 0vw 25vw;
+}
+p{
+    color: whitesmoke;
+}
+
+#lastUpdated{
+    color:rgb(235, 201, 139);
+}
+script{
+    color: whitesmoke;
+}
+
+footer{
+    margin-top: 5vw;
 }
