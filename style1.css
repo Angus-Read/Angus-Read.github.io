@@ -3,15 +3,20 @@
 }
 
 h1{
-    color: rgb(216, 187, 133);
+    color: rgb(209, 167, 89);
 }
-
+h2{
+    color: rgb(235, 201, 139);
+}
+h3{
+    color: wheat;
+}
 menu{
     padding: 20px 0px 30px 0px;
 }
 
 #menu{
-    color: wheat;
+    color: rgb(235, 201, 139);
     text-decoration: none;
     padding: 30px;
 }
@@ -19,10 +24,6 @@ menu{
 a{
     color: rgb(233, 188, 106);
     text-decoration: none;
-}
-
-h3{
-    color: wheat;
 }
 
 p{
@@ -35,4 +36,5 @@ li{
 
 body{
     background-color: cornflowerblue;
+    margin: 0px 500px;
 }
