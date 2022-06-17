@@ -1,5 +1,5 @@
 #title{
-    padding: 20px 0px 0px 0px;
+    padding: 1vw 0vw;
 }
 
 h1{
@@ -12,7 +12,7 @@ h3{
     color: wheat;
 }
 menu{
-    padding: 20px 0px 30px 0px;
+    padding: .5vw 0vw 2vw;
 }
 
 #menu{
@@ -36,5 +36,5 @@ li{
 
 body{
     background-color: cornflowerblue;
-    margin: 0% 30%;
+    margin: 0vw 30vw;
 }
