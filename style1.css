@@ -4,12 +4,15 @@
 
 h1{
     color: rgb(209, 167, 89);
+    font-size: xx-large;
 }
 h2{
     color: rgb(235, 201, 139);
+    font-size: x-large;
 }
 h3{
     color: wheat;
+    font-size: larger;
 }
 menu{
     padding: .5vw 0vw 2vw;
@@ -23,11 +26,18 @@ a{
     color: rgb(235, 201, 139);
     text-decoration: none;
     padding: 2vw;
-    
+    font-size: larger;
 }
-
+#footerlink{
+    color: rgb(235, 201, 139);
+    text-decoration: none;
+    padding: 2vw;
+    font-size: large;
+}
 li{
     color: whitesmoke;
+    font-size: large;
+
 }
 
 body{
@@ -36,10 +46,12 @@ body{
 }
 p{
     color: whitesmoke;
+    font-size: large;
 }
 
 #lastUpdated{
     color:rgb(235, 201, 139);
+    font-size: medium;
 }
 script{
     color: whitesmoke;
