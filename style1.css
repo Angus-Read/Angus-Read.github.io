@@ -1,22 +1,28 @@
 #title{
     padding: 1vw 0vw;
 }
-
+header{
+    padding-top: 3vw;
+}
 h1{
     color: rgb(209, 167, 89);
     font-size: xx-large;
 }
+
 h2{
     color: rgb(235, 201, 139);
     font-size: x-large;
 }
+
 h3{
     color: wheat;
     font-size: larger;
 }
+
 menu{
     padding: .5vw 0vw 2vw;
 }
+
 a{
     color: rgb(233, 188, 106);
     text-decoration: none;
@@ -27,12 +33,14 @@ a{
     text-decoration: none;
     font-size: larger;
 }
+
 #footerlink{
     color: rgb(235, 201, 139);
     text-decoration: none;
     padding: 2vw;
     font-size: large;
 }
+
 li{
     color: whitesmoke;
     font-size: large;
@@ -40,9 +48,10 @@ li{
 }
 
 body{
-    background-color: cornflowerblue;
+    background-color: rgb(50, 109, 218);
     margin: 0vw 25vw;
 }
+
 p{
     color: whitesmoke;
     font-size: large;
