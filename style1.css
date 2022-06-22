@@ -9,6 +9,14 @@ h1{
     font-size: xx-large;
 }
 
+#asciiart{
+    color: rgb(209, 167, 89);
+    font-size: 1vw;
+}
+#unbulleted_list{
+    list-style-type: none;
+}
+
 h2{
     color: rgb(235, 201, 139);
     font-size: x-large;
@@ -27,7 +35,9 @@ a{
     color: rgb(233, 188, 106);
     text-decoration: none;
 }
-
+#partslist{
+    color: wheat;
+}
 #menu{
     color: rgb(235, 201, 139);
     text-decoration: none;
