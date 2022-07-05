@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+    margin: 0px 700px;
+}
+h1{
+    color: whitesmoke;
+    font-size: xxx-large;
+    margin-bottom: 50px;
+    margin-top: 150px;
+}
+#menu{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: x-large;
+}
+menu{
+    margin-bottom: 100px;
+}
+h2{
+    color: whitesmoke;
+    font-size: xx-large;
+    margin-top: 50px;
+}
+p{
+    color: whitesmoke;
+    font-size: x-large;
+}
+a{
+    color: goldenrod;
+    text-decoration: none;
+    font-size: x-large;
+}
+footer{
+    margin-top: 250px;
+}

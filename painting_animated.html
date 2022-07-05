@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Animated Painting Recreation</title>
+        <link rel="stylesheet" href="css/painting_animated.css">
+    </head>
+
+    <header>
+        
+        <center>
+            <h1 id ="title">Animated Painting Recreation</h1>
+        </center>
+
+    </header>
+    <center>
+        <menu>
+            <a id = "menu" href="index.html">Home</a>
+            <a id = "menu" href = "gallery.html">Gallery Home</a>
+            <a id = "menu" href="painting_static.html">Static Painting</a>
+        </menu>
+    </center>
+ 
+    <body>
+        <div id = "painting">
+            <a id = "frame" href = "https://www.google.com/" target = "_blank"></a>
+            <a id = "background-light-grey"></a>
+            <a id = "beige-triangle-small"></a>
+            <a id = "beige-triangle-big"></a>
+            <a class = "shape" id = "big-triangle-red" href = "https://www.guggenheim.org/artwork/1080" target="_blank"></a>
+            <a id = "big-red-rectangle"></a>
+            <a id = "small-triangle-red"></a>
+            <a id = "medium-black-rectangle"></div>
+            <a class = "shape" id = "top-triangle-black" href = "http://www.visual-arts-cork.com/history-of-art/elementarism.htm" target="_blank"></a>
+            <a class = "shape" id = "bottom-triangle-black" href = "https://www.tate.org.uk/art/art-terms/n/neo-plasticism#:~:text=Neo%2Dplasticism%20is%20a%20term,Tate" target = "_blank"></a>
+            <a class = "shape" id = "top-triangle-grey" href = "https://en.wikipedia.org/wiki/Theo_van_Doesburg" target = "_blank"></a>
+            <a class = "shape" id= "yellow-triangle" href = "https://en.wikipedia.org/wiki/Piet_Mondrian" target = "_blank"></a>
+    
+        </div>
+</body>
+
+<script>
+    $(".shape").bind("webkitAnimationEnd mozAnimationEnd animationEnd", function(){
+        $(this).removeClass("spin")  
+    })
+
+    $(".shape").hover(function(){
+        $(this).addClass("spin");        
+    })
+</script>
+
+</html>
