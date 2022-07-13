@@ -6,7 +6,7 @@ header{
 }
 h1{
     color: rgb(209, 167, 89);
-    font-size: xx-large;
+    font-size: xxx-large;
 }
 
 #asciiart{
@@ -19,12 +19,12 @@ h1{
 
 h2{
     color: rgb(235, 201, 139);
-    font-size: x-large;
+    font-size: xxx-large;
 }
 
 h3{
     color: wheat;
-    font-size: larger;
+    font-size: x-large;
 }
 
 menu{
@@ -41,14 +41,15 @@ a{
 #menu{
     color: rgb(235, 201, 139);
     text-decoration: none;
-    font-size: larger;
+    font-size: x-large;
+    padding: 30px;
 }
 
 #footerlink{
     color: rgb(235, 201, 139);
     text-decoration: none;
     padding: 2vw;
-    font-size: large;
+    font-size: larger;
 }
 
 li{
@@ -64,12 +65,12 @@ body{
 
 p{
     color: whitesmoke;
-    font-size: large;
+    font-size:x-large;
 }
 
 #lastUpdated{
     color:rgb(235, 201, 139);
-    font-size: medium;
+    font-size: large;
 }
 script{
     color: whitesmoke;
