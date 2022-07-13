@@ -7,15 +7,18 @@ h1{
     font-size: xxx-large;
     margin-bottom: 30px;
 }
+
 #menu{
     color: whitesmoke;
     text-decoration: none;
     font-size: x-large;
     padding: 30px;
 }
+
 menu{
     margin: 100px 0px;
 }
+
 #medium-triangle-grey{
     position: absolute;
     border-bottom: 500px solid rgb(189, 188, 188);
@@ -23,6 +26,7 @@ menu{
     left: 1150px;
     top: 1200px;
 }
+
 #small-triangle-grey{
     position: absolute;
     border-top: 450px solid rgb(189, 188, 188);
@@ -30,6 +34,7 @@ menu{
     left: 700px;
     top: 500px;
 }
+
 #beige-triangle-small{
     position: absolute;
     border-left: 225px solid transparent;
@@ -108,7 +113,6 @@ menu{
     border-left: 450px solid transparent;
     left: 700px;
     top: 1250px;
-    
 }
 
 #top-triangle-grey{
@@ -120,7 +124,6 @@ menu{
     border-top: 300px solid grey;
     left: 1250px;
     top: 500px;
-    
 }
 
 #yellow-triangle{
@@ -147,6 +150,7 @@ menu{
     animation: spin;
     animation-duration: 3s;
 }
+
 #framefix{
     position: absolute;
     background-color: #704c15;
@@ -155,6 +159,7 @@ menu{
     top: 475px;
     left: 1000px;
 }
+
 #bgfix{
     position: absolute;
     background-color: black;
@@ -163,6 +168,7 @@ menu{
     top: 300px;
     left: 1000px;
 }
+
 @keyframes spin{
     from{
         transform: rotate(0deg);

@@ -1,0 +1,107 @@
+body {
+    color: #5d5d5d;
+    background-color: black;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    font-size: xxx-large;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: gold;
+}
+h2 {
+    font-size: xx-large;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: gold;
+}
+h3 {
+    font-size: x-large;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    color: gold;
+}
+h4 {
+    font-size: large;
+    margin: auto;
+    color: gold;
+}
+a{
+    text-decoration: none;
+    color: gold;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+p{
+    color: whitesmoke;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Specific mapael css class are below
+ * 'mapael' class is added by plugin
+*/
+
+.mapael .map {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.mapael .mapTooltip {
+    position: absolute;
+    background-color: #474c4b;
+    moz-opacity: 0.70;
+    opacity: 0.70;
+    filter: alpha(opacity=70);
+    border-radius: 10px;
+    padding: 10px;
+    z-index: 1000;
+    max-width: 200px;
+    display: none;
+    color: #fff;
+}
+
+
+/* For all zoom buttons */
+.mapael .zoomButton {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    color: #000;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    font-weight: bold;
+    left: 10px;
+
+    -webkit-user-select: none;
+    -khtml-user-select : none;
+    -moz-user-select: none;
+    -o-user-select : none;
+    user-select: none;
+}
+
+/* Reset Zoom button first */
+.mapael .zoomReset {
+    top: 10px;
+}
+
+/* Then Zoom In button */
+.mapael .zoomIn {
+    top: 30px;
+}
+
+/* Then Zoom Out button */
+.mapael .zoomOut {
+    top: 50px;
+}
