@@ -1,24 +1,19 @@
 body {
     background-color: black;
     font-family: Helvetica, Arial, sans-serif;
-    
+    min-width: 1000px;
 }
 
 h1 {
     font-size: xxx-large;
-    margin-top: 50px;
-    margin-bottom: 50px;
     color: gold;
 }
 h2 {
     font-size: xx-large;
-    margin-top: 50px;
-    margin-bottom: 50px;
     color: gold;
 }
-h3 {
+#subtitle {
     font-size: x-large;
-    margin-bottom: 50px;
     color: gold;
 }
 h4 {
@@ -37,19 +32,20 @@ p{
 .column {
     float: left;
     color: whitesmoke;
-  }
-  
-  .text {
+}
+
+.text {
     width: 75%;
-  }
-  
-  .image {
+}
+.image{
     width: 25%;
-  }
-  
+}
 .container {
     max-width: 1000px;
     margin: auto;
+}
+#groups{
+    width: 100%;
 }
 /* Specific mapael css class are below
  * 'mapael' class is added by plugin
