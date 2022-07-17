@@ -20,11 +20,13 @@ h4 {
     font-size: large;
     color: gold;
 }
+#menu{
+    padding-left: 50px;
+    padding-right: 50px;
+}
 a{
     text-decoration: none;
     color: gold;
-    padding-left: 50px;
-    padding-right: 50px;
 }
 p{
     color: whitesmoke;
@@ -33,7 +35,9 @@ p{
     float: left;
     color: whitesmoke;
 }
-
+iframe{
+    margin-bottom: 75px;
+}
 .text {
     width: 75%;
 }
