@@ -7,6 +7,8 @@ body {
 h1 {
     font-size: xxx-large;
     color: gold;
+    padding-top: 75px;
+    padding-bottom: 50px;
 }
 h2 {
     font-size: xx-large;
@@ -15,12 +17,14 @@ h2 {
 #subtitle {
     font-size: x-large;
     color: gold;
+    padding-top: 75px;
 }
 h4 {
     font-size: large;
     color: gold;
 }
 #menu{
+    padding-top: 50px;
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -35,8 +39,8 @@ p{
     float: left;
     color: whitesmoke;
 }
-iframe{
-    margin-bottom: 75px;
+.first{
+    padding-top:150px
 }
 .text {
     width: 75%;
