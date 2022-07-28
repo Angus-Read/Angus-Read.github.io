@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Sehome Hill Arboretum Map</title>
+    <link rel="stylesheet" href="css/arb_map_style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js" charset="utf-8"></script>
+    <script src="js/jquery.mapael.js" charset="utf-8"></script>
+    <script src="js/maps/arboretum.js" charset="utf-8"></script>
+    
+    <script type="text/javascript">
+        $(function () {
+            $(".mapcontainer").mapael({
+                map: {
+                    name: "arboretum"
+                    , defaultArea: {
+                        attrs: {
+                            fill: "green"
+                            , stroke: "green"
+                        }
+                        , attrsHover: {
+                            fill: 'green'
+                            ,stroke: "green",
+                        }
+                    }
+                },
+                
+                legend:{
+                    plot:[{
+                         slices: [{
+                                size: 5,
+                                attrs: {
+                                    fill: 'goldenrod',
+                                },
+                                attrsHover:{
+                                    "stroke-width" :  1,
+                                    stroke : "black"
+                                },
+                                max: "10"
+                            }, 
+                        ]
+                    }]
+                },
+                plots: {
+                    'south-entrance': {
+                        x: 5,
+                        y: 243,
+                        tooltip: {content: "south-entrance"},
+                        value: [10],
+                        href: "images/arboretum/south-entrance.jpg"
+                    },
+                    'west-entrance': {
+                        x: 30,
+                        y: 95,
+                        tooltip: {content: "west-entrance"},
+                        value: [10],
+                        href: "images/arboretum/west-entrance.jpg"
+                    },
+                    'southeast-entrance': {
+                        x: 60,
+                        y: 210,
+                        tooltip: {content: "southeast-entrance"},
+                        value: [10],
+                        href: "images/arboretum/southeast-entrance.jpg"
+                    },
+                    'northwest-entrance': {
+                        x: 45,
+                        y: 35,
+                        tooltip: {content: "northwest-entrance"},
+                        value: [10],
+                        href: "images/arboretum/northwest-entrance.jpg"
+                    },
+                    'fallen-tree': {
+                        x: 65,
+                        y: 40,
+                        tooltip: {content: "fallen-tree"},
+                        value: [10],
+                        href: "images/arboretum/fallen-tree.jpg"
+                    },
+                    'boulders': {
+                        x: 57,
+                        y: 193,
+                        tooltip: {content: "boulders"},
+                        value: [10],
+                        href: "images/arboretum/boulders.jpg"
+                    },
+                    'reservoir': {
+                        x: 70,
+                        y: 45,
+                        tooltip: {content: "reservoir"},
+                        value: [10],
+                        href: "images/arboretum/reservoir.jpg"
+                    },
+                    'squirrel': {
+                        x: 40,
+                        y: 150,
+                        tooltip: {content: "squirrel"},
+                        value: [10],
+                        href: "images/arboretum/squirrel.jpg"
+                    },
+                    'roadside': {
+                        x: 65,
+                        y: 140,
+                        tooltip: {content: "roadside clearing"},
+                        value: [10],
+                        href: "images/arboretum/roadside.jpg"
+                    },
+                    'watchtower': {
+                        x: 85,
+                        y: 60,
+                        tooltip: {content: "watchtower"},
+                        value: [10],
+                        href: "images/arboretum/watchtower.jpg"
+                    }
+                }
+
+            });
+        });
+    </script>
+</head>
+
+<body>
+<div class="container">
+
+    <center>
+        <h1>Interactive Sehome Hill Arboretum Map</h1>
+    </center>
+    
+    <div class="mapcontainer">
+        <div class="map"></div>
+    </div>
+
+</div>
+
+
+</body>
+</html>
