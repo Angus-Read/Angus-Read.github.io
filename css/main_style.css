@@ -19,7 +19,7 @@ h1{
 
 h2{
     color: rgb(235, 201, 139);
-    font-size: xxx-large;
+    font-size: xx-large;
 }
 
 h3{
@@ -54,7 +54,7 @@ a{
 
 li{
     color: whitesmoke;
-    font-size: large;
+    font-size: larger;
 
 }
 
@@ -65,7 +65,7 @@ body{
 
 p{
     color: whitesmoke;
-    font-size:x-large;
+    font-size:larger;
 }
 
 #lastUpdated{
