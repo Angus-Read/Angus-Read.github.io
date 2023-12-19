@@ -24,28 +24,37 @@
 
         <h2>About Me</h2>
         <p>
-            I am an incoming graduate student at Western Washington University, pursuing my MS in Computer Science. 
-            I am especially interested in applications of machine learning, and I expect my graduate research to be focused around analyzing methods of tensor reconstruction. 
-            During undergrad, my interest in coursework was centered around algorithms and mathematics studies for which I took several optimization and computation courses, and as such my elective coursework was focused mainly on linear algebra. 
-            I also have a background in data visualization as my undergraduate group research project, called Brainviewer, was a GUI to display the projected connection strength between various points in the brains of mice. 
-            Towards the end of my undergraduate studies I began to gain a stronger interest in machine learning and applying mathematics to other fields outside of Computer Science, which I hope to get more experience doing during my graduate studies.
+            I am a Computer Science MS graduate from Western Washington University, currently residing in Bellingham, WA.
+            During grad school, my area of research was machine learning, primarily analyzing methods of sampling in the context of tensor completion and compressive sensing (see publications).
+            I am now looking for an entry level role, ideally as a ML engineer, or some data science position.
         </p>
+
         <h2>Research Interests</h2>
-        
         <ul id = "unbulleted_list">
-                <li>Machine Learning</li>
+            <li>Machine Learning</li>
+            <li>Deep Learning</li>
             <li>Tensor Completion</li>
+            <li>Compressive Sensing</li>
             <li>Data Visualization</li>
             <li>Optimization</li>
         </ul>
         
         <h2>Publications</h2>
         
-        <ul id = "unbulleted_list">
-                <li>
+        <ul>
+            <li>
                 S Daetwiler, A Read, J Stillwell, KD Harris. BrainViewer: interacting with spatial connectome data at the mesoscale.
                 [<a href="https://arxiv.org/abs/2205.02291" target = "_blank">arxiv submission</a>]
                 [<a href="https://github.com/glomerulus-lab/brainviewer" target = "_blank">code</a>]
+            </li>
+            <li>
+                KD Harris, O Lopez, A Read, Y Zhu. Spectral gap-based deterministic tensor completion.
+                [<a href="https://arxiv.org/abs/2306.06262" target = "_blank">arxiv submission</a>]
+                [<a href="https://github.com/kamdh/max-qnorm-tensor-completion" target = "_blank">code</a>]
+            </li>
+            <li>
+                A Read, S Ban, KD Harris. Visual compressive sensing.
+                [<a href="https://github.com/glomerulus-lab/Visual-Compressive-Sensing" target = "_blank">code</a>]
             </li>
         </ul>
 
@@ -58,7 +67,12 @@
                 <a id = "footerlink" href="https://www.linkedin.com/in/angus-read/" target = "_blank">LinkedIn</a> 
                 <a id = "footerlink" href="https://github.com/Angus-Read" target = "_blank">GitHub</a>
                 <a id = "footerlink" href="mailto:angusread19@gmail.com" target = "_blank">Email</a>  
+                <p id = "lastUpdated"></p>
             </menu>
         </center>
     </footer>
+    <script>
+        var x = document.lastModified;
+        document.getElementById("lastUpdated").innerHTML = "Last Modified: " + x;
+    </script>
 </html>
